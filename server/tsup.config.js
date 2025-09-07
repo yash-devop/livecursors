@@ -5,5 +5,8 @@ export default defineConfig((options) => ({
   clean: true,
   format: ["esm"],
   target: "es2020",
+  platform: "node",
+  shims: true,
+  // external: ["socket-io"],
   ...options,
 }));
