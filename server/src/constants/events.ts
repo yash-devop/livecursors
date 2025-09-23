@@ -3,4 +3,7 @@ export const SocketEvents = {
     MOVE: "cursor_move",
     OTHERS_CURSOR: "cursor_others_move",
   },
+  META: {
+    COUNT: "live_users_count",
+  },
 } as const;
